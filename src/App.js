@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+// import logo from '../public/logo.png';
 import './App.css';
+import Nav from './components/Nav/Nav';
+// import Header from './components/Header';
+// import Main from './components/Main';
+import Footer from './components/Footer/Footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <>
+       <Nav/>
+      {/* <Header/>
+      <Main/>*/}
+      <Footer/> 
+    </>
   );
 }
 

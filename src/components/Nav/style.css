@@ -1,0 +1,19 @@
+nav {
+    background-color: rgb(230, 246, 241);
+}
+
+li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+ul {
+    margin: 0px;
+    padding: 20px 10px;
+    height: 30px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #495e57;
+}
